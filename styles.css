@@ -1,0 +1,22 @@
+body {
+    padding-top: 56px; /* For fixed navbar */
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background-color: #0d6efd; /* Bootstrap primary blue */
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
